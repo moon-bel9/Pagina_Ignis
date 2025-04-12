@@ -6,7 +6,7 @@ const products = [
         price: 129.99,
         category: "running",
         rating: 4.8,
-        image: "img/taba.png"
+        image: "img/taba1.png"
     },
     {
         id: 2,
