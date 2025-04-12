@@ -1,63 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Urban Sneakers</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGNIS - Tu tienda de zapatillas premium</title>
+    <link rel="icon" href="img/icono.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="logo">IGNIS<span>Top</span></div>
+            <div class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#destacados">Destacados</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="nav-cart" id="cartIcon">
+                <span>🛒</span>
+                <div class="cart-count">0</div>
+            </div>
+        </nav>
+    </header>
 
-  <header>
-    <h1>IGNIS</h1>
-    <nav>
-      <a href="#">Inicio</a>
-      <a href="#">Productos</a>
-      <a href="#">Ofertas</a>
-      <a href="#">Contacto</a>
-    </nav>
-  </header>
+    <section class="hero" id="inicio">
+      <h1>Estilo y confort en cada paso</h1>
+      <p>Descubre la nueva colección de zapatillas premium con un diseño único y la mejor tecnología para mejorar tu rendimiento.</p>
+      <button class="btn">Ver colección</button>
+    </section>
+    
 
-  <section class="hero">
-    <h2> Eleva tu estilo con actitud </h2>
-  </section>
+    <section class="featured" id="destacados">
+        <h2 class="section-title">Productos destacados</h2>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="running">Running</button>
+            <button class="filter-btn" data-filter="casual">Casual</button>
+            <button class="filter-btn" data-filter="deportivas">Deportivas</button>
+        </div>
+        <div class="products" id="productContainer">
+            <!-- Products will be loaded by JS -->
+        </div>
+    </section>
 
-  <section class="productos">
-    <div class="producto">
-      <img src="" alt="Zapatilla 1" />
-      <div class="producto-info">
-        <h3>Air Legend</h3>
-        <p>Diseño urbano con máxima comodidad.</p>
-        <span>S/ 249.90</span><br>
-        <button class="btn">Añadir al carrito</button>
-      </div>
+    <section class="cta">
+        <h2>Únete a nuestra comunidad</h2>
+        <p>Suscríbete a nuestro boletín para recibir las últimas novedades, ofertas exclusivas y consejos sobre cuidado de zapatillas.</p>
+        <button class="btn">Suscribirse</button>
+    </section>
+
+    <footer id="contacto">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>ZapatillasTop</h3>
+                <p>Ofrecemos las mejores zapatillas del mercado con la última tecnología y diseños exclusivos para todos los estilos de vida.</p>
+                <div class="social-links">
+                    <div>📱</div>
+                    <div>💻</div>
+                    <div>📷</div>
+                    <div>🎥</div>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Enlaces rápidos</h3>
+                <a href="#inicio">Inicio</a>
+                <a href="#destacados">Destacados</a>
+                <a href="#hombres">Hombres</a>
+                <a href="#mujeres">Mujeres</a>
+                <a href="#niños">Niños</a>
+            </div>
+            <div class="footer-column">
+                <h3>Ayuda</h3>
+                <a href="#">Preguntas frecuentes</a>
+                <a href="#">Envíos</a>
+                <a href="#">Devoluciones</a>
+                <a href="#">Estado del pedido</a>
+                <a href="#">Métodos de pago</a>
+            </div>
+            <div class="footer-column">
+                <h3>Contacto</h3>
+                <p>📍 Calle Principal 123, Ciudad</p>
+                <p>📞 +34 123 456 789</p>
+                <p>✉️ info@zapatillastop.com</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 IGNISTop. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="cartModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <h2>Tu carrito</h2>
+            <div id="cartItems">
+                <!-- Cart items will be loaded by JS -->
+            </div>
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">€0.00</span>
+            </div>
+            <button class="btn">Proceder al pago</button>
+        </div>
     </div>
 
-    <div class="producto">
-      <img src="" alt="Zapatilla 2" />
-      <div class="producto-info">
-        <h3>Street Flow</h3>
-        <p>Estilo callejero para destacar en todo lugar.</p>
-        <span>S/ 189.90</span><br>
-        <button class="btn">Añadir al carrito</button>
-      </div>
-    </div>
-
-    <div class="producto">
-      <img src="" alt="Zapatilla 3" />
-      <div class="producto-info">
-        <h3>RunnerX</h3>
-        <p>Corre libre, luce increíble.</p>
-        <span>S/ 209.90</span><br>
-        <button class="btn">Añadir al carrito</button>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    © 2025 IGNIS. Todos los derechos reservados.
-  </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
