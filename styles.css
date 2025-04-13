@@ -229,6 +229,7 @@ nav {
 }
 
 .add-to-cart {
+  margin: 5px;
   padding: 8px 15px;
   background-color: var(--secondary);
   color: white;

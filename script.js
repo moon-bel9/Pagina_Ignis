@@ -142,7 +142,7 @@ function displayProducts(category = 'all') {
             <div class="product-info">
                 <div class="product-category">${product.category.charAt(0).toUpperCase() + product.category.slice(1)}</div>
                 <h3 class="product-name">${product.name}</h3>
-                <div class="product-price">€${product.price.toFixed(2)}</div>
+                <div class="product-price">S/.${product.price.toFixed(2)}</div>
                 <div class="product-actions">
                     <button class="add-to-cart" data-id="${product.id}">Añadir al carrito</button>
                     <div class="rating">${stars} <span>(${product.rating})</span></div>
