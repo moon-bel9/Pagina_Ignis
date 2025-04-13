@@ -14,7 +14,7 @@ const products = [
         price: 89.99,
         category: "casual",
         rating: 4.5,
-        image: "/api/placeholder/250/220"
+        image: "img/taba2.png"
     },
     {
         id: 3,
@@ -22,7 +22,7 @@ const products = [
         price: 149.99,
         category: "deportivas",
         rating: 4.9,
-        image: "/api/placeholder/250/220"
+        image: "img/taba3.png"
     },
     {
         id: 4,
@@ -30,7 +30,7 @@ const products = [
         price: 159.99,
         category: "running",
         rating: 4.7,
-        image: "/api/placeholder/250/220"
+        image: "img/taba4.png"
     },
     {
         id: 5,
@@ -38,7 +38,7 @@ const products = [
         price: 79.99,
         category: "casual",
         rating: 4.6,
-        image: "/api/placeholder/250/220"
+        image: "img/taba5.png"
     },
     {
         id: 6,
@@ -46,7 +46,7 @@ const products = [
         price: 119.99,
         category: "deportivas",
         rating: 4.8,
-        image: "/api/placeholder/250/220"
+        image: "img/taba6.png"
     },
     {
         id: 7,
@@ -54,7 +54,7 @@ const products = [
         price: 139.99,
         category: "running",
         rating: 4.9,
-        image: "/api/placeholder/250/220"
+        image: "img/taba7.png"
     },
     {
         id: 8,
