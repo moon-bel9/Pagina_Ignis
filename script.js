@@ -123,6 +123,7 @@ function displayProducts(category = 'all') {
         const productElement = document.createElement('div');
         productElement.classList.add('product');
         
+
         // Generar estrellas de rating
         let stars = '';
         for (let i = 1; i <= 5; i++) {
@@ -285,3 +286,27 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+
+//Formulario Flotante 
+// Mostrar y ocultar el formulario
+const openBtn = document.getElementById("openForm");
+const closeBtn = document.getElementById("closeForm");
+const modal = document.getElementById("subscribeModal");
+const form = document.getElementById("subscribeForm");
+const notification = document.getElementById("notification");
+
+openBtn.onclick = () => modal.style.display = "flex";
+closeBtn.onclick = () => modal.style.display = "none";
+
+// Al enviar el formulario
+form.onsubmit = (e) => {
+    e.preventDefault();
+    modal.style.display = "none";
+    notification.style.display = "block";
+
+    // Ocultar la notificación después de 3 segundos
+    setTimeout(() => {
+        notification.style.display = "none";
+    }, 3000);
+};

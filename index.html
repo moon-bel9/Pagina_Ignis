@@ -46,8 +46,27 @@
     <section class="cta">
         <h2>Únete a nuestra comunidad</h2>
         <p>Suscríbete a nuestro boletín para recibir las últimas novedades, ofertas exclusivas y consejos sobre cuidado de zapatillas.</p>
-        <button class="btn">Suscribirse</button>
+        <button class="btn" id="openForm">Suscribirse</button>
     </section>
+    
+    <!-- Modal flotante -->
+    <div class="modal" id="subscribeModal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeForm">&times;</span>
+            <h3>Formulario de Suscripción</h3>
+            <form id="subscribeForm">
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Notificación -->
+    <div class="notification" id="notification">¡Gracias por suscribirte!</div>
+    
+<!-- Notificación -->
+<div class="notification" id="notification">¡Gracias por suscribirte!</div>
 
     <footer id="contacto">
         <div class="footer-content">
@@ -71,14 +90,14 @@
                 <a href="#">Preguntas frecuentes</a>
                 <a href="#">Envíos</a>
                 <a href="#">Devoluciones</a>
-                <a href="#">Estado del pedido</a>5
+                <a href="#">Estado del pedido</a>
                 <a href="#">Métodos de pago</a>
             </div>
             <div class="footer-column">
                 <h3>Contacto</h3>
-                <p>📍 Calle Principal 123, Chosica</p>
+                <p>📍 Calle Principal 123, Los Olivos</p>
                 <p>📞 +51 933 938 444</p>
-                <p>✉️ info@zapatillastop.com</p>
+                <p>✉️ zapatillastop@gmail.com</p>
             </div>
         </div>
         <div class="copyright">
