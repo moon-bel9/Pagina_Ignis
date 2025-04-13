@@ -63,6 +63,38 @@ const products = [
         category: "casual",
         rating: 4.5,
         image: "/api/placeholder/250/220"
+    },
+    {
+        id: 9,
+        name: "Ivano Low Brisk",
+        price: 179.99,
+        category: "casual",
+        rating: 4.5,
+        image: "/api/placeholder/250/220"
+    },
+    {
+        id: 10,
+        name: "SIvano Low Brisk Black",
+        price: 179.99,
+        category: "casual",
+        rating: 4.5,
+        image: "/api/placeholder/250/220"
+    },
+    {
+        id: 11,
+        name: "Running Ultra Free 3.0",
+        price: 149.99,
+        category: "deportivas",
+        rating: 4.5,
+        image: "/api/placeholder/250/220"
+    },
+    {
+        id: 12,
+        name: "Running Shoes",
+        price: 19.99,
+        category: "running",
+        rating: 4.5,
+        image: "/api/placeholder/250/220"
     }
 ];
 
