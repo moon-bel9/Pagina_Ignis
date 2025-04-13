@@ -415,7 +415,7 @@ footer {
   color: white;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 17px;
   cursor: pointer;
 }
 
@@ -455,6 +455,7 @@ footer {
   width: 100%;
   margin: 10px 0;
   padding: 8px;
+  border-radius: 14px;
 }
 
 /* Notificación */
