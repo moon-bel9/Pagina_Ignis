@@ -58,11 +58,11 @@ const products = [
     },
     {
         id: 8,
-        name: "Street Fashion",
+        name: "Street Sneakers",
         price: 99.99,
         category: "casual",
         rating: 4.5,
-        image: "/api/placeholder/250/220"
+        image: "img/taba8.png"
     },
     {
         id: 9,
@@ -70,7 +70,7 @@ const products = [
         price: 179.99,
         category: "casual",
         rating: 4.5,
-        image: "/api/placeholder/250/220"
+        image: "img/taba9.png"
     },
     {
         id: 10,
@@ -78,7 +78,7 @@ const products = [
         price: 179.99,
         category: "casual",
         rating: 4.5,
-        image: "/api/placeholder/250/220"
+        image: "img/taba10.png"
     },
     {
         id: 11,
@@ -86,7 +86,7 @@ const products = [
         price: 149.99,
         category: "deportivas",
         rating: 4.5,
-        image: "/api/placeholder/250/220"
+        image: "img/taba11.png"
     },
     {
         id: 12,
@@ -94,7 +94,7 @@ const products = [
         price: 19.99,
         category: "running",
         rating: 4.5,
-        image: "/api/placeholder/250/220"
+        image: "img/taba12.png"
     }
 ];
 
